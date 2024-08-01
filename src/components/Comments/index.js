@@ -15,7 +15,7 @@ const initialContainerBackgroundClassNames = [
 
 // Write your code here
 class Comments extends Component {
-  state = {nameInput, commentInput, commentsList}
+  state = {nameInput:'', commentInput:'', commentsList:[]}
 
   onAddComment = event => {
     event.preventDefault()
