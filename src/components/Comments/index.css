@@ -1,0 +1,82 @@
+/* Write your CSS here */
+.bg-co {
+  height: 100vh;
+  background-color: #ffff;
+  padding: 20px;
+}
+.comments-head {
+  font-size: 28px;
+  font-weight: 700;
+  font-family: 'Roboto';
+  margin-left: 14px;
+  margin-right: 14px;
+}
+.paragraph {
+  font-size: 28px;
+  font-weight: 400;
+  font-family: 'roboto';
+
+  margin-left: 14px;
+  margin-right: 14px;
+}
+.container-box {
+  display: flex;
+  flex-direction: column;
+}
+.comments-img {
+  height: 125px;
+  width: 250px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+.onNameInput {
+  font-size: 24px;
+  padding: 12px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  height: 52px;
+  width: 584px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  margin-left: 12px;
+  margin-right: 12px;
+  border-radius: 6px;
+  border: 1px solid grey;
+  box-shadow: 0px 1px 0px grey;
+}
+.onCommentInput {
+  font-size: 24px;
+  padding: 12px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  height: 252px;
+  width: 584px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  margin-left: 12px;
+  margin-right: 12px;
+  border-radius: 6px;
+  border: 1px solid grey;
+}
+.button {
+  height: 33px;
+  width: 150px;
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  background-color: #0b69ff;
+  color: #fff;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  margin-left: 12px;
+  margin-right: 12px;
+  box-shadow: 1px;
+}
+.line-1 {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  margin-left: 12px;
+  margin-right: 12px;
+}
