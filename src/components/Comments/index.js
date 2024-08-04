@@ -69,10 +69,11 @@ class Comments extends Component {
     }))
   }
   deleteComment = id => {
+    const {commentsList}=this.state
     this.setState({
-      commentsList: commentsList.filter(comment => {
+      commentsList: commentsList.filter(comment => 
         comment.id !== id
-      }),
+      ),
     })
   }
   render() {
